@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="page-title">
+            <h1>COLOMBIA WORLD CUP ⚽🏆<h1>
+            <h3>MATCH 2</h3>
+            <h4>Colombia 🇨🇴 Vs DR Congo 🇨🇩</h4>
+        </div>
+        <div class="container">
+            <div>
+                <h3 class="titles">COL 🇨🇴</h3>
+                <div id="home-score-counter">0</div>
+                    <div class="score-btns"> 
+                        <button onclick="addHome(1)">+1</button>
+                        <button onclick="addHome(2)">+2</button>
+                        <button onclick="addHome(3)">+3</button>
+                    </div>
+                </div>
+            <div>
+                <h3 class="titles">CON 🇨🇩</h3>
+                <div id="guest-score-counter">0</div>
+                    <div class="score-btns">        
+                        <button onclick="addGuest(1)">+1</button>
+                        <button onclick="addGuest(2)">+2</button>
+                        <button onclick="addGuest(3)">+3</button>
+                     </div>
+                </div>
+                
+        </div>
+       <div class="new-game-container"> 
+            <button id="new-game-btn" onclick="reset()">NEW GAME</button>
+       </div>
+        <script src="index.js"></script>
+    </body>
+</html>
